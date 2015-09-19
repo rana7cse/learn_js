@@ -12,6 +12,10 @@ function h2(heading){
 function q(question){
     console.log("-- " + question + " ?");
 }
+
+function out(output){
+    console.log("//-> "+output);
+}
 ///---------------- Utility Functions are Here ------------
 
 ///--------- Learning Javascript Alert -------------
@@ -23,5 +27,8 @@ alert('I am a Alert');
 h2('Learn Variable  ');
 q('What is variable');
 console.log("A variable is a reference name of memory space where we store the data as the value as the variable. \nHere is a example of javascript variable :");
-console.log("// var variableName ="+
-    "'Hello World'");
+console.log("** var variableName ="+
+    "'Hello World';\n" +
+    "** console.log(variableName);");
+var variableName = "Hello World";
+console.log("out//->",variableName);

@@ -24,4 +24,33 @@
     console.log(typeof null);
     var num = "20";
     console.log(typeof Number(num));
+
+    var People = {
+
+    };
+
+    console.log(null instanceof Object);
+
+    console.log(Boolean("rana"));
+    console.log(Boolean("0"));
+    console.log(Boolean(null));
+    console.log(Boolean(undefined));
+    console.log(Boolean([]));
+    console.log(Boolean({}));
+    console.log(Boolean(0));
+    console.log(Boolean(1));
+    console.log(typeof Infinity);
+
+    console.log("---------- Operators ---------");
+    console.log("## Arithmetic Operators");
+    console.log("1+2 = "+(1+2));
+    console.log("10-5 = "+(10-5));
+    console.log("10*5 = "+(10*5));
+    console.log("10/5 = "+(10/5));
+    console.log("## Increment & Decrement");
+    var num = 4;
+    console.log("4++ + 4++ = "+(num+++num++));
+    var num = 4;
+    console.log("++4 + ++4 = "+(++num + ++num));
+    console.log("---------- ENDS ---------\n\n");
 })();
